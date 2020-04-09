@@ -10,8 +10,6 @@ public class Driver {
 
     //same for everyone
     private static WebDriver driver;
-
-
     //so no one can create object of Driver class
     //everyone should call static getter method instead
     private Driver() {
