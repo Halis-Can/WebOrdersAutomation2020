@@ -46,7 +46,7 @@ public class Driver {
         }
         return driverpool.get();
     }
-
+//new
     public static void closeDriver() {
         if (driverpool != null) {
             driverpool.get().quit();
